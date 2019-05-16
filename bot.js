@@ -27,10 +27,6 @@ client.on('ready', () => {
 });
 
  
- client.on('ready', () => {
-     var x = client.channels.get("578298778616987671");
-     if (x) x.join();
- });
  
  
  
